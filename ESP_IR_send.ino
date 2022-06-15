@@ -3,7 +3,7 @@
  * https://www.reddit.com/r/arduino/comments/krv55r/convert_an_int_to_a_binary_array/
  * https://forum.arduino.cc/t/byte-array-to-string/129708/6
  *  
- * daniel-k-05
+ * https://github.com/daniel-k-05/ESP32_IR_Daten-bertragung
  */
 
 
