@@ -17,7 +17,6 @@ const int debug_ledPin = 17;
 const int posPin = 5;
 
 
-
 const int blockLength = 5;  // so in the end it's 5+1
 const int ZeitProZeichen = 500;
 int clkSpeed = ZeitProZeichen / 6;
@@ -40,8 +39,7 @@ void setup() {
   else{
     Serial.println("MODE :: READ");
   }
-
-
+  
   input.toUpperCase();
   sendData = generateData(input);
   Serial.println("Compiled Code: " + sendData);
